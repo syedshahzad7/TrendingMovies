@@ -27,12 +27,15 @@ This project demonstrates real-world frontend and backend integration using mode
 ## Frontend
 
 React
+
 Vite
+
 Tailwind CSS
 
 ## Backend / Services
 
 TMDB REST API
+
 Appwrite (Database and SDK)
 
 # Architecture and Design Decisions
