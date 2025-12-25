@@ -1,16 +1,38 @@
-# React + Vite
+# Trending Movies App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack movie discovery application built with React, Tailwind CSS, TMDB API, and Appwrite. The application allows users to search movies in real time, tracks search frequency, and displays trending movies based on user interactions.
 
-Currently, two official plugins are available:
+# Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates real-world frontend and backend integration using modern web technologies. It focuses on performance optimization, clean component architecture, and data-driven features such as search analytics and trending content.
 
-## React Compiler
+# Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+• Movie search using the TMDB API
+• Popular movie discovery when no search query is provided
+• Trending movies ranked by user search frequency
+• Debounced search to reduce unnecessary API calls
+• Loading and error state handling
+• Responsive and accessible UI
 
-## Expanding the ESLint configuration
+# Tech Stack
+## Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+React
+Vite
+Tailwind CSS
+
+## Backend / Services
+
+TMDB REST API
+Appwrite (Database and SDK)
+
+# Architecture and Design Decisions
+
+• Component-based architecture for maintainability and reusability
+• Separation of UI, business logic, and external service integration
+• Asynchronous data fetching using async/await
+• Debounced search input to improve performance and user experience
+• Appwrite used as an analytics backend to store and rank search data
+• Defensive rendering to safely handle missing or partial API responses
+
